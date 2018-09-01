@@ -5,10 +5,10 @@
  */
 'use strict';
 
-var gulp = require('gulp');
-var babel = require('gulp-babel');
-var clean = require('gulp-clean');
-var uglify = require('gulp-uglify');
+var gulp = require('gulp')
+  , babel = require('gulp-babel')
+  , clean = require('gulp-clean')
+  , uglify = require('gulp-uglify');
 
 gulp.task('clean', () => {
   return gulp.src('dist/*').pipe(clean({ force: true }));
