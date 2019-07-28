@@ -7,8 +7,9 @@
     "test": "test.js"
   },
   "dependencies": {
-    "iconv-lite": "0.4.19",
     "bufferhelper": "0.2.1",
+    "iconv-lite": "0.4.19",
+    "nodemailer": "^6.3.0",
     "underscore": "1.8.3"
   },
   "devDependencies": {
