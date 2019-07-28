@@ -5,4 +5,4 @@
  */
 'use strict';
 
-module.exports = require('./lib/utils');
+exports.mail = require('./mail');
